@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+section{
+    display: block;
+}
+ul{
+    display:block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#nav{
+
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+#nav::before{
+    content: "";
+    background-color:coral;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    width:100vw;
+    z-index:-1;
+    opacity: 0.9;
+}
+.logo{
+    margin: 5px;
+}
+.nav1{
+    display: flex;
+    margin-left: 90px;
+}
+.nav1 li{
+    list-style-type:none;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+    
+    
+}
+a{
+    text-decoration: none;
+
+}
+.log
+{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 22px;
+}
+#logbtn1
+{
+    width:80px;
+    height: 40px;
+    color: black;
+    border: 2px solid black;
+    font-size: large; 
+    cursor: pointer; 
+}
+#logbtn2
+{
+    width:80px;
+    height: 40px;
+    color: black;
+    border: 2px solid black;
+    font-size: large; 
+    cursor: pointer; 
+}
+#logbtn1:hover{
+    background-color: brown;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background:url("https://i.ibb.co/qym8ywD/Nepal.webp") no-repeat center center/cover;
+    height: 100%;
+    width:100%;
+    z-index: -2;
+}
+#searchform
+{
+     position:absolute;
+}
+#search{
+    height: 50px;
+    width: 500px;
+    background-color:cornsilk;
+    color:black;
+    border-color: cornsilk;
+    border-collapse: collapse;
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+#searchbtn{
+    background-color: green;
+    height: 50px;
+    width: 75px;
+
+    
+}
+#searchbtn:hover{
+    background-color:greenyellow;
+    cursor: pointer;
+}
+
+#place
+{   content: "";
+    padding-top: 2%;
+    height:390px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size:3em;
+}
+h3{
+    color: black;
+    font-size: large;
+}
+.previous{
+    color:white;
+    background-color:red;
+    border-radius:5px;
+    height: 25px;
+    width: 50px;
+    float: left;
+}
+.next{
+color:white;
+background-color:red;
+border-radius:5px;
+height: 25px;
+width: 50px;
+float: right;
+}
+.slides{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+}
+.slide{
+    border: 5px  black;
+    height: 260px;
+    width: 50%;
+    /* padding-right:100px; */
+    margin: 40px;
+    
+}
+#slides__1
+{
+    background: url("https://i.ibb.co/qym8ywD/Nepal.webp");
+}
+#slides__2
+{
+    background: url("https://i.ibb.co/qym8ywD/Nepal.webp");
+}
+#slides__3
+{
+    background: url("https://i.ibb.co/qym8ywD/Nepal.webp");
+}
+#slides__4
+{
+    background: url("https://i.ibb.co/qym8ywD/Nepal.webp");
+}
+.caption
+{
+    padding-top: 99% ;
+    padding-left: 30%;
+    font-size: 30px;
+
+}
+marquee
+{
+    font-size: large;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+.contact{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:40px 10px;
+
+
+}
+.about{
+    display: inline-block;
+    width:30%
+}
+#about{
+    list-style-type: none;
+    
+
+}
+#about li{
+    display: list-item;
+    margin: 20px;
+}
+.support{
+    display: inline-block;
+    width:30%
+
+}
+#support{
+    list-style-type: none;
+}
+#support li{
+    display: list-item;
+    margin: 20px;
+}
+.lline{
+    background-color: black;
+    text-align: center;
+
+}
+#logform
+{
+    background-color:grey;
+    height: 450px;
+    width: 200px;
+    margin-top: 0px;
+    padding: 40px;
+    margin-left: 960px;
+    margin-top:0px;
+    z-index: 5;
+    font-size: large;
+    display:none;
+    transition: 0.3s;
+    animation:normal;
+    
+}
+input[type="text"],input[type="email"]
+{
+    width: 100%;
+    height: 40px;
+    color: black;
+    border-radius: 15px;
+}
+#log
+{
+    color: black;
+}
+#signform
+{
+    background-color:grey;
+    height: 450px;
+    width: 200px;
+    margin-top: 0px;
+    padding: 40px;
+    margin-left: 960px;
+    margin-top:0px;
+    z-index: 5;
+    font-size: large;
+    display:none;
+    /* transition: 0.3s; */
+    
+}
+#sign
+{
+    color: black;
+}
+#signb
+{
+    background-color: orangered;
+    width: 80px;
+    height: 50px;
+}
+#logb
+{
+    background-color: orangered;
+    width: 80px;
+    height: 50px;
+}

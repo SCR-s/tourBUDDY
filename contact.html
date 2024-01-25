@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tourBUDDY</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/image.jpg">
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript" src="webpage.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section id="nav">
+        <div class="logo">
+
+            <img src="logo.jpg" height="100px" width="100px" style="border-radius: 50%;">
+            <h2>tourBUDDY</h2>
+        </div>
+
+        <ul class="nav1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#place">Holiday<br>pacakages</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+        <div>
+            <button id="logbtn1" style="margin-left: 200px;" onclick="openlog()">login</button>
+            <button id="logbtn2" onclick="opensign()">signup</button>
+        </div>
+    </section>
+    <!-- login and signup page -->
+    <section>
+        <div id="logform">
+            <h1>Login</h1>
+            <form id="log" method="post">
+                <label for="phone">Mobile No</label><br>
+                <input type="text" id="phone1" name="phone" max="10"><br><br>
+                <label>
+                    <input type="checkbox" id="check">Remember me
+                </label><br><br>
+                <button id="logb" onclick="logalert()">Login</button><br>
+                <p>Dont have an account.<a href="#" style="text-decoration: underline;">Create One</a></p>
+            </form>
+        </div>
+        <div id="signform">
+            <h1>Signup</h1>
+            <form id="sign" method="">
+                <label for="phone">Mobile No</label><br>
+                <input type="text" id="phone2" name="phone" max="10"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email2" name="email"><br><br>
+                <button id="signb" onclick="signalert()">Signup</button>
+
+            </form>
+        </div>
+    </section>
+    <h1 style="color: black;">Welcome TO the help center</h1>
+
+    </section>
+    <section id="contacts">
+        <div id="main">
+            <div class="info">
+                <h2>Contact us Directly at:</h2>
+                <h2>8613546982</h2>
+                <br><br>
+                <h2>Email us at:</h2>
+                <h2>tourBUDDYnep@gmail.com</h2>
+                <br><br>
+                <h2>Shoot us on any social media:</h2><br>
+                <img src="socialmedia.jpg" height="50px" width="150px">
+                <br><br>
+                
+            </div>
+            <form id="form">
+            <div class="head">
+                <h1 style="float: left;">Fill the Form</h1>
+            </div>
+                <div class="element">
+                    <input type="text" name="name" placeholder="Name" id="name">
+                </div>
+                <br><br>
+                <div class="element">
+                    <input type="email" name="email" placeholder="E-mail" id="email">
+                </div>
+                <br><br>
+                <div class="element">
+                    <textarea rows="8" cols="50" >
+                        Message us
+                    
+                    </textarea>
+                    
+                </div>
+                <br><br>
+                <button id="sub">Submit</button>
+
+            </form>
+            <section id="locate">
+
+            </section>
+            <section class="foot">
+                <div class="contact">
+                    <div class="about">
+                        <h3 style="margin-left: 20px;">About tripBUDDY</h3>
+                        <ul id="about">
+                            <li>About us</li>
+                            <li>Our Teams</li>
+                            <li>career</li>
+                        </ul>
+                    </div>
+                    <div class="support">
+                        <h3 style="margin-left: 70px;">Contact</h3>
+                        <ul id="support">
+                            <li>Help and Support</li>
+                            <li>Ride with us</li>
+                            <li>For Review</li>
+                        </ul>
+                    </div>
+                    <div class="down">
+                        <img src="down.jpeg">
+                    </div>
+            </section>
+            <hr>
+            <section class="copyright">
+                <div class="lline">
+                    <p> &#169 2024 tripBUDDY.All rights reserved.</p>
+        
+                </div>
+            </section>
+        
+
+
+        
+
+</body>
+
+</html>

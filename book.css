@@ -1,0 +1,84 @@
+h2{
+    color: black;
+}
+#packages
+{
+    display: list-item;
+    /* background-color: grey; */
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: black;
+    padding-left: 200px;
+}
+#pack1
+{
+    align-self: center;
+    width: 60%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    margin:50px;
+    padding: 10px;
+    border-radius: 15px;;
+
+}
+#pack2
+{
+    align-self: center;
+    width: 60%;
+    height: 350px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    margin:50px;
+    padding: 10px;
+    border-radius: 15px;;
+
+}
+#pimg1
+{
+    left: 30px;
+    margin: 40px;
+    height: 250px;
+    /* border: 2px solid black; */
+    width: 200px;
+    background:url("https://i.ibb.co/qym8ywD/Nepal.webp");
+
+}
+#pimg2
+{
+    left: 30px;
+    margin: 40px;
+    height: 250px;
+    /* border: 2px solid black; */
+    width: 200px;
+    background:url("https://i.ibb.co/qym8ywD/Nepal.webp");
+}
+#iternaary1
+{
+    
+    padding: 10px;
+    /* border: 2px solid black; */
+    height: 250px;
+    
+}
+.bookbtn
+{
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    background-color: green;
+    margin-left: 190px;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+#iternaary2
+{
+    padding: 10px;
+    /* border: 2px solid black; */
+    height: 250px;
+}
